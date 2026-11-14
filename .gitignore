@@ -1,0 +1,26 @@
+# Personal music libraries and album artwork are not part of the source project.
+/music/*
+!/music/.gitkeep
+
+# Locally built player binaries.
+/linux/player
+/windows/player.exe
+
+/macos/player
+/dist/
+/windows/tools/
+
+# Album-reference images kept in the project root for local artwork work.
+/*.jpg
+/*.jpeg
+/*.png
+
+# Python cache and interrupted downloads.
+__pycache__/
+*.py[cod]
+*.part
+
+# Local configuration and editor metadata.
+player.conf
+.vscode/
+.idea/
